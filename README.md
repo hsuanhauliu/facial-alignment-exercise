@@ -1,6 +1,6 @@
-# [Project Title]
+# Facial Alignment Exercise
 
-TODO: One Paragraph of project description goes here
+Play around with facial alignment techniques.
 
 ## Getting Started
 
@@ -8,19 +8,27 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-TODO: What things you need to install the software and how to install them
+See requirements.txt for a list of dependencies.
 
 ```
-Examples
+pip install requirements.txt
 ```
 
 ### Installation
 
 A step by step series of examples that tell you how to get a development env running.
 
+The user of virtualenv is recommended.
+<script src="https://gist.github.com/hsuanhauliu/1b1fed24baa1cbb6d2d191e8ea85b8ec.js"></script>
+
 ```
-Example
+git clone https://github.com/hsuanhauliu/facial-alignment-exercise.git
+cd facial-alignment-exercise
+pip install -r requirements.txt
 ```
+If you have trouble downloading dlib, please follow this [tutorial](https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/) to troubleshoot.
+
+Download the pre-trained model [here](dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) and place it in the root directory.
 
 ### Usage
 
