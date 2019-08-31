@@ -44,3 +44,7 @@ Follow the commands below to run the program.
 ```
 jupyter notebook facial-alignment.ipynb
 ```
+
+## References
+
+- [Python Computer Vision OpenCV - Find Face Landmarks using DLIB](https://www.youtube.com/watch?v=ujYc-3na6XU)
