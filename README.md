@@ -14,9 +14,7 @@ This project uses Python >= 3.7. See requirements.txt for a list of dependencies
 
 A step by step series of examples that tell you how to get a development env running.
 
-The use of virtualenv is encouraged. See below on how to install and activate virtual environment.
-
-<script src="https://gist.github.com/hsuanhauliu/1b1fed24baa1cbb6d2d191e8ea85b8ec.js"></script>
+The use of virtualenv is encouraged. See this [gist](https://gist.github.com/hsuanhauliu/1b1fed24baa1cbb6d2d191e8ea85b8ec) on how to install and activate virtualenv.
 
 1. Clone the repository and download dependencies.
 
