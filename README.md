@@ -26,9 +26,18 @@ pip install -r requirements.txt
 
 If you have trouble downloading dlib, please follow this [tutorial](https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/) to troubleshoot.
 
-2. Download the pre-trained model [here](dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) and place it in the root directory.
+2. Download [Openface](https://github.com/cmusatyalab/openface).
 
-3. Add your virtual environment to the kernel.
+```
+git clone https://github.com/cmusatyalab/openface.git
+cd openface
+pip install -r requirements.txt
+sudo python setup.py install
+```
+
+3. Download the pre-trained model [here](dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) and place it in the root directory.
+
+4. Add your virtual environment to the kernel.
 
 ```
 ipython kernel install --user --name=venv
