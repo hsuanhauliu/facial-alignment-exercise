@@ -1,6 +1,6 @@
 # Facial Alignment Exercise
 
-Play around with facial alignment techniques.
+Learning various frameworks by practicing facial alignment. See the Jupyter notebook [here](https://github.com/hsuanhauliu/facial-alignment-exercise/blob/master/facial-alignment.ipynb).
 
 ## Getting Started
 
